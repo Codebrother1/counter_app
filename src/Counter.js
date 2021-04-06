@@ -21,7 +21,8 @@ class Counter extends Component {
   }
   changeCount(amount){
     this.setState(prevState => {
-      return {count: prevState.count + amount}})
+      return {count: prevState.count + amount}
+    })
 }
 
 }
